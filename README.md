@@ -39,7 +39,7 @@ if you want the task to run at midnight, 7 AM, and 1 PM, set this to <code>@(0, 
  ```
 
  ## Authors
- * **Johnny Tisdale** - [github](github.com/johnnytisdale) | [website](johnnytisdale.com) 
+ * **Johnny Tisdale** - [github](https://github.com/johnnytisdale) | [website](https://johnnytisdale.com) 
  
  ## License
  This project is licensed under the ISC License. See [LICENSE.md](LICENSE.md) for details.
