@@ -23,14 +23,15 @@ but use at your own risk.
  If the task should be run locally, set this to <code>$false</code>. If the task should be run 
 in a session on another computer on your network, enter the name of that computer here. In 
 this case, the path you specified is assumed to be relative to the remote computer.
- For example, if <code>path</code> is set to "C:\powershell\task1.ps1" and <code>remote</code> 
-is set to "MyServer", then task1.ps1 is assumed to exist on the C: drive of MyServer, '''NOT''' 
-the computer from which the scheduler is being executed.
+
+ For example, if <code>path</code> is set to <code>"C:\powershell\task1.ps1"</code> and 
+ <code>remote</code> is set to <code>"MyServer"</code>, then task1.ps1 is assumed to exist on 
+the C drive of MyServer, **NOT** the computer from which the scheduler is being executed.
 
  ### time
- If the task should be run hourly, set this to "hourly". If the task should be run only at specific 
-times, set this to an array of values for hours in 24-hour time. For example, if you want the task 
-to run at midnight, 7 AM, and 1 PM, set this to <code>@(0, 7, 13)</code>.
+ If the task should be run hourly, set this to <code>"hourly"</code>. If the task should be run
+only at specific times, set this to an array of values for hours in 24-hour time. For example,
+if you want the task to run at midnight, 7 AM, and 1 PM, set this to <code>@(0, 7, 13)</code>.
 
  ## Usage
  ```
@@ -38,10 +39,10 @@ to run at midnight, 7 AM, and 1 PM, set this to <code>@(0, 7, 13)</code>.
  ```
 
  ## Authors
- '''Johnny Tisdale''' - [github](github.com/johnnytisdale) | [website](johnnytisdale.com) 
+ * **Johnny Tisdale** - [github](github.com/johnnytisdale) | [website](johnnytisdale.com) 
  
  ## License
  This project is licensed under the ISC License. See [LICENSE.md](LICENSE.md) for details.
  
  ## Acknowledgements
- * [Billie Thompson AKA PurpleBooth](https://github.com/PurpleBooth) - README template
+ * [Billie Thompson](https://github.com/PurpleBooth) - [README template](https://github.com/PurpleBooth/a-good-readme-template)
